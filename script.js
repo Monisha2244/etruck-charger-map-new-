@@ -15,7 +15,7 @@ function getMarkerColor(score) {
 // Remove the function for adding route lines, no need to add polylines
 
 // Load charger data
-fetch("potential_chargers_extended_realistic.json")
+fetch("potential_chargers_extended_realistic_FINAL.json")
   .then(res => res.json())
   .then(data => {
     // Group chargers by route
